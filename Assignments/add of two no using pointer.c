@@ -12,7 +12,5 @@ void main()
 	
 	sum = *p + *q;
 	
-	printf("\nSum of the two numbers = %d\n",sum);
-	
-	return 0;
+	printf("\nSum of the two numbers = %d\n",sum); 
 }

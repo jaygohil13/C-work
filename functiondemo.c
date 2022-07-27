@@ -7,7 +7,7 @@ void func2()
 {
 	printf("\nfunc2 called");
 }
-void func3()
+void func3() 
 {
 	printf("\nfunc3 called");
 }
