@@ -1,5 +1,5 @@
 #include <stdio.h>  
-int main()  
+void main()  
 {  
   char string1[20]; // char array declaration  
   char string2[20]; // char array declaration  
@@ -7,27 +7,17 @@ int main()
     
   char *str1; // declaration of char pointer  
   char *str2;  // declaration of char pointer 
-   
-  str1=string1;  
-  str2=string2; 
-   
+    
   printf("Enter the first string :");  
   scanf("%s",string1);  
   printf("\nEnter the second string :");  
   scanf("%s", string2);  
-  while(string1[i]!='\0')  
-  {  
-     ++str1;  
-     i++;  
-  }  
-  while(string2[j]!='\0')  
-  {  
-      *str1=*str2;  
-      str1++;  
-      str2++;  
-      j++;  
-  }  
-  printf("\nThe concatenated string is : %s",string1);  
-  
-    return 0;  
+  for(i=0;string1[i]!='\0';i++); 
+  for(j=0;string2[j]!='\0';j++)
+  {
+        string1[i]=string2[j];
+        i++;
+  } 
+    string1[i]='\0';
+    printf("\nAfter The concatenated string is : %s",string1);   
 }  

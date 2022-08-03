@@ -4,10 +4,10 @@ void main()
 {
 	int a[10],size,i,largest,position;
 	
-	printf("enter the size of elements\n");
+	printf("enter the size of elements :");
 	scanf("%d",&size);
 	
-	printf("enter %d elements of an array:\n",size);
+	printf("enter %d elements of an array :",size);
 	for(i=0;i<size;i++)
 	{
 		scanf("%d",&a[i]);
