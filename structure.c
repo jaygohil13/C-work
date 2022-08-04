@@ -1,7 +1,7 @@
 #include<stdio.h>
     
 struct employee{
-	int i, eid;
+	int eid;
 	char name[10];
 	float esal;
 };
