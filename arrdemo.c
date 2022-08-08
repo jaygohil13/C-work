@@ -15,7 +15,7 @@ void main()
 	printf("\n-----Array 2 Elements-----\n");
 	for(i=0;i<5;i++)
 	{
-		printf("Enter Elements [%d] : ",i);
+		printf("Enter Elements[%d] : ",i);
 		scanf("%d",&arr2[i]);
 	}
 	
