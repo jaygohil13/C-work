@@ -14,7 +14,7 @@ void main()
 		}
 		for(k=i;k<=rows;k++)
 		{
-			printf("*");
+			printf("* ");
 		}
 		printf("\n");
 	}

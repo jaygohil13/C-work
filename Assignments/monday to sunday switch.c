@@ -3,25 +3,25 @@
 void main()
 {
 	int day;
-	printf("enter the number of day\n1=monday.....7=sunday=");
+	printf("***** Enter the number of day *****\n\n1=monday.....7=sunday=");
 	scanf("%d",&day);
 	
 	
 	switch(day)
 	{
-		case 1:printf("\nmonday");
+		case 1:printf("\n##### Monday #####");
 		break;
-		case 2:printf("\ntuesday");
+		case 2:printf("\n@@@@@ Tuesday @@@@@");
 		break;
-		case 3:printf("\nwednesday");
+		case 3:printf("\n^^^^^ Wednesday ^^^^^");
 		break;
-		case 4:printf("\nthursday");
+		case 4:printf("\n$$$$$ Thursday $$$$$");
 		break;
-		case 5:printf("\nfriday");
+		case 5:printf("\n~~~~~ Friday ~~~~~");
 		break;
-		case 6:printf("\nsaturday");
+		case 6:printf("\n&&&&& Saturday &&&&&");
 		break;
-		case 7:printf("\nsunday");
+		case 7:printf("\n||||| Sunday |||||");
 		break;
 		default:printf("\ninvalid choice");
 	}

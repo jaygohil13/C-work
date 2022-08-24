@@ -2,15 +2,15 @@
 
 void main()
 {
-	int n,remainder,reverse=0;
-	printf("enter a number:");
+	int n,Remainder,Reverse=0;
+	printf("Enter a Number:");
 	scanf("%d",&n);
 	
 	while(n!=0)
 	{
-		remainder=n%10;
-		reverse=reverse*10+remainder;
+		Remainder = n%10;
+		Reverse = Reverse * 10 + Remainder;
 		n/=10;
 	}
-	printf("reverse number:%d",reverse);
+	printf("\nReverse Number:%d",Reverse);
 }
