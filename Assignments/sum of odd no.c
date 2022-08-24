@@ -3,7 +3,7 @@
 void main()
 {
 	int i,number,sum=0;
-	printf("\nplease enter the maximum limit value:");
+	printf("please enter the maximum limit value:");
 	scanf("%d",&number);
 	
 	printf("\nodd numbers between 0 and %d are:",number);
@@ -15,5 +15,5 @@ void main()
 			sum=sum + i;
 		}
 	}
-	printf("\n\n the sum of odd numbers from 1 to %d=%d",number,sum);
+	printf("\n\nthe sum of odd numbers from 1 to %d=%d",number,sum);
 }
